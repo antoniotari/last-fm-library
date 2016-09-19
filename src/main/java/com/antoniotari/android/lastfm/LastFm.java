@@ -19,7 +19,6 @@ import okhttp3.Response;
 public enum LastFm {
     INSTANCE;
 
-    // private static final String LASTFM_API_KEY="0047e9a1eac2a9482a32e30b86c81e23";
     private static final String LASTFM_BASE_URL="http://ws.audioscrobbler.com/2.0/?";
     private static final String LASTFM_ARTIST_URL="method=artist.getInfo&artist=";
     private static final String LASTFM_ALBUM_URL="method=album.getInfo&artist=%s&album=%s";
